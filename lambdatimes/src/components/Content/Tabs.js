@@ -1,5 +1,6 @@
 import React from 'react';
 import Tab from './Tab';
+import Content from './Content';
 import PropTypes from 'prop-types';
 
 const Tabs = props => {
@@ -13,7 +14,8 @@ const Tabs = props => {
             selectedTab = {props.selectTab}
             tab = {tab}
           />
-        ))}
+        ))};
+
       </div>
     </div>
   );
