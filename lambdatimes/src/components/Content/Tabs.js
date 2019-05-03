@@ -8,7 +8,7 @@ const Tabs = props => {
     <div className="tabs">
       <div className="topics">
         <span className="title">TRENDING TOPICS:</span>
-        {props.tab.map(tab => (
+        {props.tabs.map(tab => (
           <Tab
             selectTabHandler = {props.selectTabHandler}
             selectedTab = {props.selectedTab}
