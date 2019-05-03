@@ -28,17 +28,32 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 
 ## Self-Study/Essay Questions
 
-- [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
-- [ ] Describe a life-cycle event in React?
-- [ ] Explain the details of a Higher Order Component?
-- [ ] What are three different ways to style components in React? Explain some of the benefits of each.
-
+- [X] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+	- PropTypes are typechecking for props without tools like flow or typescript.  
+	- It is important to typescript in Javascript to prevent errors from occurings before they go unnoticed for a long time
+	
+- [X] Describe a life-cycle event in React?
+	- A life cycle event in react has three parts, Mounting -> Updating -> Unmounting
+	- Mounting/Birth is the start where you define your constructor
+	- Updating/Growth is where you update your data with setState / changing state in any way
+	- Unmounting/Death is where the component is removed from the screen
+	
+- [X] Explain the details of a Higher Order Component?
+	- Higher Order Components that are reusable for multiple scenarios
+	- Higher Order Components follow the react life-cycle 
+	- componentDidMount() -> shouldComponentUpdate() -> componentwillUnmount()
+	
+- [X] What are three different ways to style components in React? Explain some of the benefits of each.
+	- Material UI - Follow popular google design template ease of use
+	- Styled Components - Better than basic CSS styling and intertwine with react programming methodology
+	- react Bootstrap - Bootstrap in react, if you're familiar with Bootstrap from UI then it'll be a lifesaver
+	
 ## Project Setup
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
+- [X] Create a forked copy of this project.
+- [X] Add your project manager as collaborator on Github.
 - [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
