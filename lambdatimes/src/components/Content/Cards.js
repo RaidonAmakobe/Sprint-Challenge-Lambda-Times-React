@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Card from './Card';
 import PropTypes from 'prop-types';
-import Content from './Content';
 
 const Cards = props => {
   return (
