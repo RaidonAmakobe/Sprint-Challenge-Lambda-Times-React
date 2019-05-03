@@ -31,13 +31,13 @@ const styledTemp = styled.span`
   text-align: right;
   margin-right: 25px
   flex: 1;`;
-  
+
 const Header = () => {
   return (
     <styledHeader>
-      <span className="date">SMARCH 32, 2018</span>
+      <styledDate>SMARCH 32, 2018</styledDate>
       <h1>Lambda Times</h1>
-      <span className="temp">98°</span>
+      <styledTemp>98°</styledTemp>
     </styledHeader>
   )
 }
